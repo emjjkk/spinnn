@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@layer base {
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-family: sans-serif;
+        color: #333;
+    }
+}
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wheel-segment {
+  background-color: #e2e8f0;
+  border: 1px solid black;  /* Segment color */
+}
